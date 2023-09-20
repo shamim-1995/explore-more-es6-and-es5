@@ -32,3 +32,5 @@ const affordable = products.find(p => p.price < 50000)
 // reduce
 const total = products.reduce( (acum, current) => acum + current.price, 0);
 // console.log(total);
+
+
